@@ -1,2 +1,2 @@
 # fashion-recommender-system
-A Deep Learning based Fashion Recommender System using the ResNET50
+This is a model of a Fashion Recommender System using the KNearest neighbor algorithm

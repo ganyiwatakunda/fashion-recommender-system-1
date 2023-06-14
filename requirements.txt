@@ -4,10 +4,9 @@ streamlit~=1.2.0
 Pillow~=8.4.0
 opencv-python~=4.5.4.60
 scikit-learn~=1.0.1
-torch==1.3.0
-torchvision==0.4.1
+torch
+torchvision
 tensorboard==1.14.0
 tensorboardx==1.9
-tensorflow==1.14.0
 --find-links https://storage.googleapis.com/jax-releases/jax_releases.html
 jax[cuda]>=version

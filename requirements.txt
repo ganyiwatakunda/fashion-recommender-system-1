@@ -1,12 +1,12 @@
-tensorflow~=2.7.0
-tqdm~=4.62.3
-streamlit~=1.2.0
-Pillow~=8.4.0
-opencv-python~=4.5.4.60
-scikit-learn~=1.0.1
+tensorflow
+tqdm
+streamlit
+Pillow
+opencv-python
+scikit-learn
 torch
 torchvision
-tensorboard==1.14.0
-tensorboardx==1.9
+tensorboard
+tensorboardx
 --find-links https://storage.googleapis.com/jax-releases/jax_releases.html
 jax[cuda]>=version

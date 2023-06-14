@@ -9,3 +9,5 @@ torchvision==0.4.1
 tensorboard==1.14.0
 tensorboardx==1.9
 tensorflow==1.14.0
+--find-links https://storage.googleapis.com/jax-releases/jax_releases.html
+jax[cuda]>=version

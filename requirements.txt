@@ -1,7 +1,7 @@
 tensorflow
 tqdm
 streamlit
-pilllow
+PIL
 numpy
 opencv-python
 opencv-contrib-python

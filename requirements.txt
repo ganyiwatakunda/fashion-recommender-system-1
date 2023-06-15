@@ -2,8 +2,8 @@ tensorflow
 tqdm
 streamlit
 numpy
-opencv-python-headless
-opencv-contrib-python-headless
+opencv-python
+opencv-contrib-python
 scikit-learn
 torch
 torchvision

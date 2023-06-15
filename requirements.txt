@@ -2,7 +2,7 @@ tensorflow
 tqdm
 streamlit
 Pillow
-opencv-python
+opencv-python-headless
 scikit-learn
 torch
 torchvision

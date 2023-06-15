@@ -21,7 +21,7 @@ model = tensorflow.keras.Sequential([
     GlobalMaxPooling2D()
 ])
 
-st.title('Fashion Recommender System')
+st.title('Fashion Recommendation System')
 
 def save_uploaded_file(uploaded_file):
     try:
@@ -53,7 +53,7 @@ def recommend(features,feature_list):
 # file upload -> save
 uploaded_file = st.file_uploader("Choose an image")
 if uploaded_file is not None:
-        save_uploaded_file(uploaded_file):
+    if save_uploaded_file(uploaded_file):
         # display the file
         display_image = Image.open(uploaded_file)
         st.image(display_image)
@@ -75,8 +75,11 @@ if uploaded_file is not None:
             st.image(filenames[indices[0][3]])
         with col5:
             st.image(filenames[indices[0][4]])
- else:
-      st.header("Some error occured in file upload")
+    else:
+        st.header("Some error occured in file upload")
+
+       
+ 
 
         
 
